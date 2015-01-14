@@ -1,0 +1,22 @@
+{
+    "name": "handbag-require",
+    "version": "0.0.0",
+    "description": "Patch to allow import of node modules into handbag",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/darlanalves/handbag-require"
+    },
+    "author": "Darlan Alves <me@darlanalv.es>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/darlanalves/handbag-require/issues"
+    },
+    "homepage": "https://github.com/darlanalves/handbag-require",
+    "dependencies": {
+        "handbag": "*"
+    }
+}
