@@ -1,3 +1,6 @@
+/* jshint node:true */
+'use strict';
+
 var handbag = require('handbag');
 var fs = require('fs');
 
