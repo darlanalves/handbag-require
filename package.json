@@ -1,6 +1,6 @@
 {
   "name": "handbag-require",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Patch to allow import of node modules into handbag",
   "main": "index.js",
   "scripts": {
