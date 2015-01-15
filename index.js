@@ -2,6 +2,7 @@
 'use strict';
 
 var handbag = require('handbag');
+var camelCase = require('camelcase');
 var fs = require('fs');
 
 handbag.require = importModule;
@@ -14,7 +15,7 @@ handbag.requireFromManifest = requireFromManifest;
 function importModule(name) {
     try {
         var modl = require(name);
-        handbag.value(name, modl);
+        handbag.value(camelCase(name), modl);
     } catch (e) {
         throw new Error('Module not found: ' + name, e);
     }
