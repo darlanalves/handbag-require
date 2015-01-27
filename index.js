@@ -12,10 +12,10 @@ handbag.requireFromManifest = requireFromManifest;
  * Import a node module and register it as a value
  * @param {String} name Module name
  */
-function importModule(name) {
+function importModule(name, registerAs) {
     try {
         var modl = require(name);
-        handbag.value(camelCase(name), modl);
+        handbag.value(registerAs || camelCase(name), modl);
     } catch (e) {
         throw new Error('Module not found: ' + name, e);
     }

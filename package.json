@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/darlanalves/handbag-require",
   "dependencies": {
+    "camelcase": "^1.0.2",
     "handbag": "*"
   }
 }
